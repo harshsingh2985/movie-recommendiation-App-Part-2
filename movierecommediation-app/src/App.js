@@ -11,7 +11,7 @@ const App = () => {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home></Home>}></Route>
-      
+
       <Route path="/" element={<Singlemovie></Singlemovie>}></Route>
       
     </Routes>
@@ -20,4 +20,5 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
+
